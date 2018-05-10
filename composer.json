@@ -1,0 +1,16 @@
+{
+    "name": "vmsrg/mage2csvimport",
+    "type": "library",
+    "description": "Create magento 2 csv file",
+    "keywords": ["magento", "csv"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "ajgl/csv-rfc": "^0.2.0",
+        "cocur/slugify": "^3.1"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" },
+        "files": ["src/helpers.php"]
+    }
+}
